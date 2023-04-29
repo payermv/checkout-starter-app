@@ -1,0 +1,75 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+.pnp
+.pnp.js
+
+# Editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+lib/
+dist/
+tmp/
+out/
+build/
+*.tsbuildinfo
+
+# IDEs and Editors
+*.DS_Store
+*.bak
+*.backup
+*~.nib/
+*.swp
+*.d
+.idea/
+*.suo
+*.opensdf
+*.user
+*.sln.docstates
+*.VC.db
+*.pdb
+*.cache
+*.ilk
+*.ncb
+*.sdf
+*.log
+[Tt]humbs.db
+*.sqlite
+*.sqlitedb
+*.sqlite3
+*.md5
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# misc
+*.zip
+*.gz
+*.map
+*.tar
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!*.env.example
