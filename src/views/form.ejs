@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payer Checkout Starter App</title>
+    <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+    <style>
+        .form-group {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>payer checkout starter app</h1>
+
+        <p class="notice">On a real-world app, you wouldn't be collecting these information from the user, except for
+            Amount in some cases. In most cases you'd have these values prepopulated, and you'll pass it directly to the
+            Checkout Session API call.</p>
+
+        <form action="/checkout" method="post">
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" name="title" required />
+                <br />
+                <mark>this will appear on Payer's checkout page</mark>
+            </div>
+
+            <div class="form-group">
+                <label>Amount:</label>
+                <input type="text" name="amount" required />
+                <br />
+                <mark>amount in cents (eg: 100 instead of 1.00)</mark>
+            </div>
+
+            <div class="form-group">
+                <label>Reference:</label>
+                <input type="text" name="reference" required />
+                <br />
+                <mark>unique reference number</mark>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

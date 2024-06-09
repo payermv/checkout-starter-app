@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Payer Checkout API Playground</title>
+  <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+</head>
+
+<body class="">
+  <div class="">
+    <h1 class="">checkout session result</h1>
+
+    <p class="notice">You can see the response returned by Payer Checkout page. Based on the value of status
+      (success/fail), you can render your response page.</p>
+
+    <table class="table-auto">
+      <% Object.entries(data).forEach(([key, value])=> { %>
+        <tr>
+          <td>
+            <%= key %>
+          </td>
+          <td>
+            <%= value %>
+          </td>
+        </tr>
+        <% }) %>
+    </table>
+  </div>
+</body>
+
+</html>
